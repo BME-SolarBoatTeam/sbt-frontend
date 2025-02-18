@@ -182,7 +182,7 @@ const Navbar = ({ className, ...props }) => {
                 <Link href={''} scroll>
                   Hírek
                 </Link>
-                <Link href={''} scroll>
+                <Link href={'/gallery'} scroll>
                   Galéria
                 </Link>
                 <Link href={'/sponsors'} scroll>
