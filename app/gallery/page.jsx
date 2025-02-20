@@ -18,18 +18,22 @@ const page = () => {
             className={'mx-auto flex h-full w-[70vw] flex-col justify-between p-8 lg:w-[60vw] lg:flex-row lg:p-12'}
           >
             <div className="grid">
-              <div className="flex">
-                <div className="grid justify-start items-center">
-                  <img className='w-7xl' src={'/images/logo/menologo.svg'}  ></img>
+              <div className="grid-cols-2 grid-rows-1">
+                <div className="grid grid-cols-2 grid-rows-1 items-center justify-start">
+                  <img width={1000} src={'/images/logo/menologo.svg'}/>
                 </div>
-                <div className="grid justify-center px-2 py-2">
-                  <img className='' src={'/Balaton.png'}></img>
+                <div className='grid grid-rows-1 '>
+                  <div className="relative grid justify-center px-2 py-2">
+                    <img width={110} src={'/Balaton.png'}/>
+                    <p className="text-bme-white absolute left-15 h-28 w-full translate-y-1/2 -rotate-90">BALATON</p>
+                  </div>
+                  <div className="relative grid justify-end px-2 py-2">
+                    <img width={235} src={'/Wildau.png'}/>
+                    <p className="text-bme-white absolute bottom-0 w-full">WILDAU</p>
+                  </div>
                 </div>
-                <div className="grid px-2 py-2 justify-end">
-                  <img src={'/Wildau.png'}></img>
-                </div>
-                <div className="grid items-end">
-                  <img src={'/Monaco.png'}></img>
+                <div className="grid items-end justify-center">
+                  <img width={2500} src={'/Monaco.png'}/>
                 </div>
               </div>
             </div>

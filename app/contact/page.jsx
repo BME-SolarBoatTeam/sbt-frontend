@@ -172,7 +172,6 @@ const Page = () => {
         </div>
       </Container>
 
-      <Footer />
     </PageLayout>
   );
 };
