@@ -40,6 +40,9 @@ const Footer = () => {
               <Link href={'/team'} scroll>
                 Csapattagok
               </Link>
+              <Link href={'/achievements'} scroll>
+                Eredményeink
+              </Link>
               <Separator className="bg-bme-black/50 dark:bg-bme-white/50 my-2 lg:hidden" />
             </div>
             <div className="grid h-fit gap-2">
@@ -53,9 +56,7 @@ const Footer = () => {
               <Separator className="bg-bme-black/50 dark:bg-bme-white/50 my-2 lg:hidden" />
             </div>
             <div className="grid h-fit gap-2">
-              <p className="font-bold">
-                Egyéb
-              </p>
+              <p className="font-bold">Egyéb</p>
               <Link href={'/gallery'} scroll>
                 Galéria
               </Link>
