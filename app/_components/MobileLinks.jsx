@@ -17,14 +17,7 @@ const MobileLinks = ({ isOpen, handleToggle, user, handleLogout, privileged }) =
             <XIcon
               onClick={handleToggle}
               size={48}
-              stroke="white"
-              className="absolute -top-8 -right-8 z-999 hidden cursor-pointer dark:block"
-            />
-            <XIcon
-              onClick={handleToggle}
-              size={48}
-              stroke="black"
-              className="absolute -top-8 -right-8 z-999 block cursor-pointer dark:hidden"
+              className="dark:stroke-bme-white stroke-bme-black absolute -top-8 -right-8 z-999 cursor-pointer"
             />
             <Accordion type="single" collapsible className="min-w-full pt-14">
               <AccordionItem value="item-1">

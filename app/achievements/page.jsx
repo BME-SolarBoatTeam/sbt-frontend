@@ -1,3 +1,4 @@
+import AchievementsContainer from '../_components/(Achievements)/AchievementsContainer';
 import PageLayout from '../_components/(Layouts)/PageLayout';
 
 /*
@@ -22,11 +23,15 @@ import PageLayout from '../_components/(Layouts)/PageLayout';
 
   (?) Modositas URL => /api/achievement/update (body: id, data)
 */
+export const metadata = {
+  title: 'Eredmények',
+  description: 'Elért eredményeink az elmúlt években.',
+};
 
 const Page = () => {
   return (
     <PageLayout>
-      <h1 className="pt-12 text-center text-xl lg:text-3xl">
+      <h1 className="my-6 text-center text-xl lg:mb-12 lg:pt-12 lg:text-3xl">
         Az évek alatt elért
         <span className="bg-linear-to-r from-[#00FF4D] to-[#00A6FF] bg-clip-text font-semibold text-transparent">
           {' '}
@@ -34,7 +39,7 @@ const Page = () => {
         </span>
         .
       </h1>
-      <p className="text-center font-mono italic">Coming soon...</p>
+      <AchievementsContainer />
     </PageLayout>
   );
 };

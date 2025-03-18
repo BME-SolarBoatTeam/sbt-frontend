@@ -100,7 +100,12 @@ export default function Home() {
               imgAlt={'Szponzorok'}
               imgSrc={'/more/button4.webp'}
             />
-            <ExploreFlagLink text={'További eredményekeink >'} imgAlt={'Eredményeink'} imgSrc={'/more/button5.webp'} />
+            <ExploreFlagLink
+              href="/achievements"
+              text={'További eredményekeink >'}
+              imgAlt={'Eredményeink'}
+              imgSrc={'/more/button5.webp'}
+            />
           </div>
 
           <div className="mx-auto my-8 max-w-[800px]">
