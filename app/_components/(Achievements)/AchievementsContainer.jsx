@@ -16,7 +16,7 @@ const AchievementsContainer = () => {
       </div>
       <button
         onClick={() => {
-          toast('❗ Ez a funkció még nem implementálva ❗');
+          toast('❗ Ez a funkció még nem lett implementálva ❗');
         }}
         className="hover:bg-hovered-bme-blue dark:bg-bme-orange hover:dark:bg-hovered-bme-orange bg-bme-blue text-bme-white dark:text-bme-black mx-auto mt-6 flex w-fit cursor-pointer items-center justify-between gap-1 rounded-full px-8 py-1 text-center text-sm lg:mt-12 lg:px-12 lg:text-xl"
       >
