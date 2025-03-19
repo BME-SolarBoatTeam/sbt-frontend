@@ -28,8 +28,8 @@ const MobileView = ({ ctx, currentIndex, maxLength }) => {
             alt="Missing Alt!"
           />
           <div className="flex flex-row gap-3">
-            <Container className={'w-full rounded-md p-1 text-center text-sm'}>{ctx.location}</Container>
-            <Container className={'w-full rounded-md p-1 text-center text-sm'}>
+            <Container className={'w-1/2 truncate rounded-md p-1 text-center text-sm'}>{ctx.location}</Container>
+            <Container className={'w-1/2 rounded-md p-1 text-center text-sm'}>
               {new Date(ctx.date).toLocaleDateString('hu-HU')}
             </Container>
           </div>
