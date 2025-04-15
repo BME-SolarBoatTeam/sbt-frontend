@@ -49,11 +49,11 @@ export default function Home() {
           <div className="my-auto flex h-full flex-col items-center justify-center gap-3 pt-0 lg:p-0">
             <h3 className="text-center text-xl lg:text-3xl">Rólunk</h3>
             <p className="text-justify text-xs font-extralight md:mx-auto md:text-base">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae velit culpa perferendis dignissimos,
-              inventore veritatis fuga. Cum corrupti ducimus deserunt? Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Fugiat, dolor iste! Accusantium culpa exercitationem sequi voluptatibus repellat
-              cupiditate perspiciatis ab. Minus debitis magni nemo, vel culpa necessitatibus quas itaque assumenda
-              molestiae. Facilis omnis voluptatibus ab dolor veritatis impedit fuga dolores.
+              Csapatunk 2014 óta fejleszt és épít napenergiával hajtott versenyhajókat, több mint 100 egyetemista
+              közreműködésével. Második hajónk, Lana, nemzetközi versenyeken is bizonyított, jelenleg pedig egyszerre
+              fejlesztjük tovább és építjük harmadik hajónkat, mesterséges intelligencia bevonásával. Célunk a megújuló
+              energia népszerűsítése és a hallgatók szakmai fejlődésének támogatása, hozzájárulva a fenntartható, zöld
+              közlekedés jövőjéhez.
             </p>
             <Link
               href={'/team'}
