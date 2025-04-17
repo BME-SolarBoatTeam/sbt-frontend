@@ -45,12 +45,11 @@ const SolarBoatProjectSlide = () => {
         <div className="flex gap-8">
           <Separator orientation="vertical" className="bg-bme-black/50 dark:bg-bme-white/50 w-[2px]" />
           <p className="text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum suscipit quam, id bibendum felis
-            posuere eu. Nulla vitae interdum ipsum. Cras malesuada posuere massa, non ultrices turpis facilisis vitae.
-            Maecenas interdum sem a ante tempor finibus. Nullam ultricies luctus consectetur. Maecenas scelerisque
-            pulvinar suscipit. Nunc sit amet lectus dui. Integer dignissim et massa nec laoreet. Nulla mollis nec risus
-            tincidunt rhoncus. In nec placerat neque. Sed facilisis mattis turpis a fermentum. Sed efficitur ullamcorper
-            sodales.
+            Lana, a második generációs napelemes hajónk, a fenntarthatóság és a mérnöki precizitás tökéletes ötvözete. A
+            projekt 2022-ben indult, egy ambiciózus diákcsapat kezdeményezésére a Műszaki Egyetemről. Céljuk az volt,
+            hogy egy olyan vízi járművet hozzanak létre, amely nemcsak környezetbarát, hanem versenyképes teljesítményt
+            is nyújt. A Lana nemcsak technikai csoda, hanem inspiráció is: egy élő bizonyíték arra, hogy fiatal mérnökök
+            és környezettudatos gondolkodásmód képes valódi változást hozni a jövő közlekedésébe.
           </p>
         </div>
       </div>

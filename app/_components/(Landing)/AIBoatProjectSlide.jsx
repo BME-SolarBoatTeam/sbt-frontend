@@ -71,12 +71,13 @@ const AIBoatProjectSlide = () => {
         <div className="flex gap-8">
           <Separator orientation="vertical" className="bg-bme-black/50 dark:bg-bme-white/50 w-[2px]" />
           <p className="text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum suscipit quam, id bibendum felis
-            posuere eu. Nulla vitae interdum ipsum. Cras malesuada posuere massa, non ultrices turpis facilisis vitae.
-            Maecenas interdum sem a ante tempor finibus. Nullam ultricies luctus consectetur. Maecenas scelerisque
-            pulvinar suscipit. Nunc sit amet lectus dui. Integer dignissim et massa nec laoreet. Nulla mollis nec risus
-            tincidunt rhoncus. In nec placerat neque. Sed facilisis mattis turpis a fermentum. Sed efficitur ullamcorper
-            sodales.
+            A Trimarán Boat az AI – Boat Projekt zászlóshajója, amely a mesterséges intelligencia és a fenntartható
+            technológia házasságából született. A projekt 2024-ben indult azzal a céllal, hogy automatizált hajózási
+            rendszereket hozzon létre, amelyek képesek önállóan navigálni, energiát optimalizálni és valós idejű
+            döntéseket hozni a környezet alapján. Az AI rendszer képes felismerni más hajókat, akadályokat és időjárási
+            viszonyokat, így a Trimarán Boat ideális kutató- és felderítő missziókra, vagy akár autonóm szállítási
+            feladatokra is. Az AI rendszer képes felismerni más hajókat, akadályokat és időjárási viszonyokat, így a
+            Trimarán Boat ideális kutató- és felderítő missziókra, vagy akár autonóm szállítási feladatokra is.
           </p>
         </div>
       </div>
@@ -90,12 +91,12 @@ const AIBoatProjectSlide = () => {
           </div>
           <div className="w-fit text-center text-2xl">
             <HazeIcon size={48} className="stroke-bme-blue dark:stroke-bme-orange mx-auto" />
-            <p>1000+ kW</p>
+            <p>1100+ kW</p>
             <p className="opacity-50">napelem energia</p>
           </div>
           <div className="w-fit text-center text-2xl">
             <MapIcon size={48} className="stroke-bme-blue dark:stroke-bme-orange mx-auto" />
-            <p>40+ km</p>
+            <p>50+ km</p>
             <p className="opacity-50">max távolság</p>
           </div>
         </div>

@@ -49,11 +49,14 @@ export default function Home() {
           <div className="my-auto flex h-full flex-col items-center justify-center gap-3 pt-0 lg:p-0">
             <h3 className="text-center text-xl lg:text-3xl">Rólunk</h3>
             <p className="text-justify text-xs font-extralight md:mx-auto md:text-base">
-              Csapatunk 2014 óta fejleszt és épít napenergiával hajtott versenyhajókat, több mint 100 egyetemista
-              közreműködésével. Második hajónk, Lana, nemzetközi versenyeken is bizonyított, jelenleg pedig egyszerre
-              fejlesztjük tovább és építjük harmadik hajónkat, mesterséges intelligencia bevonásával. Célunk a megújuló
-              energia népszerűsítése és a hallgatók szakmai fejlődésének támogatása, hozzájárulva a fenntartható, zöld
-              közlekedés jövőjéhez.
+              Csapatunk 2014 óta foglalkozik napenergiával hajtott versenyhajók fejlesztésével, illetve építésével, és
+              mára több mint 100 magyar egyetemista járult hozzá a projektünkhöz. Második generációs hajónk, Lana,
+              nemzetközi versenyeken is bizonyított, például Monacóban, Németországban és a Balatonon. Jelenleg
+              egyszerre fejlesztjük tovább Lanát és építjük a harmadik hajónkat is, amely során a mesterséges
+              intelligenciát is alkalmazzuk az önvezetés területén. Projektünk célja továbbá, hogy népszerűsítse a
+              megújuló energiát és az elektromos járműépítést, miközben értékes szakmai tapasztalatot nyújt a résztvevő
+              hallgatóknak. Víziónk, hogy hozzájáruljunk a fenntartható hajózás jövőjéhez, és mérnökeink tudása révén
+              alakítsuk jövő zöld közlekedést.
             </p>
             <Link
               href={'/team'}

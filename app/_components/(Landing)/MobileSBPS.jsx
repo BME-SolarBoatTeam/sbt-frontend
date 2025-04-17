@@ -55,14 +55,11 @@ const MobileSBPS = () => {
               <h1 className="px-2 text-xl">SolarBoat Projekt</h1>
             </div>
             <p className="line-clamp-15 overflow-hidden text-justify text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel aliquam aliquet, nisl nisl
-              aliquet nisl, vel aliquam nisl nisl vel aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sed euismod, nisl vel aliquam aliquet, nisl nisl aliquet nisl, vel aliquam nisl nisl vel aliquam. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel aliquam aliquet, nisl nisl
-              aliquet nisl, vel aliquam nisl nisl vel aliquam. Sed euismod, nisl vel aliquam aliquet, nisl nisl aliquet
-              nisl, vel aliquam nisl nisl vel aliquam. Sed euismod, nisl vel aliquam aliquet, nisl nisl aliquet nisl,
-              vel aliquam nisl nisl vel aliquam. Sed euismod, nisl vel aliquam aliquet, nisl nisl aliquet nisl, vel
-              aliquam nisl nisl vel aliquam.
+              Lana, a második generációs napelemes hajónk, a fenntarthatóság és a mérnöki precizitás tökéletes ötvözete.
+              A projekt 2022-ben indult, egy ambiciózus diákcsapat kezdeményezésére a Műszaki Egyetemről. Céljuk az
+              volt, hogy egy olyan vízi járművet hozzanak létre, amely nemcsak környezetbarát, hanem versenyképes
+              teljesítményt is nyújt. A Lana nemcsak technikai csoda, hanem inspiráció is: egy élő bizonyíték arra, hogy
+              fiatal mérnökök és környezettudatos gondolkodásmód képes valódi változást hozni a jövő közlekedésébe.
             </p>
           </div>
         </div>
