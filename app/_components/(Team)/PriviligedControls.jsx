@@ -1,7 +1,7 @@
 'use client';
 
 import { UserContext } from '../Providers/User-provider';
-import { isAdmin } from '~/lib/utils';
+import { isAdmin } from '../../../lib/utils';
 import CreateGroupForm from '../(Forms)/CreateGroupForm';
 import CreateSubGroupForm from '../(Forms)/CreateSubGroupForm';
 import AssignUserToGroupForm from '../(Forms)/AssignUserToGroupForm';

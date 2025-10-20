@@ -1,6 +1,6 @@
 import Navbar from '../Navbar';
 import Footer from '../Footer';
-import { cn } from '~/lib/utils';
+import { cn } from '../../../lib/utils';
 
 const PageLayout = ({ children, className, ...props }) => {
   return (

@@ -2,7 +2,7 @@
 
 import { useContext, useState } from 'react';
 import { UserContext } from '../Providers/User-provider';
-import { isAdmin } from '~/lib/utils';
+import { isAdmin } from '../../../lib/utils';
 import {
   Dialog,
   DialogContent,
@@ -11,9 +11,9 @@ import {
   DialogTitle,
   DialogTrigger,
   DialogFooter,
-} from '~/components/ui/dialog';
-import { Button } from '~/components/ui/button';
-import { wait } from '~/lib/utils';
+} from '../../../components/ui/dialog';
+import { Button } from '../../../components/ui/button';
+import { wait } from '../../../lib/utils';
 import { toast } from 'sonner';
 
 const TeamMember = ({ user, position, group, setRefresh, isItSubGroup }) => {

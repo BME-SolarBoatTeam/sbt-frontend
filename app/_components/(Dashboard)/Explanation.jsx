@@ -2,7 +2,7 @@
 
 import { BadgeInfoIcon, TriangleAlertIcon } from 'lucide-react';
 import { useContext } from 'react';
-import { Button } from '~/components/ui/button';
+import { Button } from '../../../components/ui/button';
 import {
   Dialog,
   DialogClose,

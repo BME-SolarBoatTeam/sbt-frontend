@@ -1,7 +1,7 @@
 'use client';
 
-import { GaugeIcon, HazeIcon, MapIcon } from 'lucide-react';
-import { Separator } from '~/components/ui/separator';
+import { GaugeIcon, ArrowsUpFromLine, BrainCircuit } from 'lucide-react';
+import { Separator } from '../../../components/ui/separator';
 
 const SolarBoatProjectSlide = () => {
   return (
@@ -45,11 +45,7 @@ const SolarBoatProjectSlide = () => {
         <div className="flex gap-8">
           <Separator orientation="vertical" className="bg-bme-black/50 dark:bg-bme-white/50 w-[2px]" />
           <p className="text-justify">
-            Lana, a második generációs napelemes hajónk, a fenntarthatóság és a mérnöki precizitás tökéletes ötvözete. A
-            projekt 2022-ben indult, egy ambiciózus diákcsapat kezdeményezésére a Műszaki Egyetemről. Céljuk az volt,
-            hogy egy olyan vízi járművet hozzanak létre, amely nemcsak környezetbarát, hanem versenyképes teljesítményt
-            is nyújt. A Lana nemcsak technikai csoda, hanem inspiráció is: egy élő bizonyíték arra, hogy fiatal mérnökök
-            és környezettudatos gondolkodásmód képes valódi változást hozni a jövő közlekedésébe.
+            Lana 2019-óta a BME Solar Boat Team saját tervezésű, napenergiával hajtott hajója. A járművet egy 7,5 kW-os BLDC motor hajtja, amelyet egy 1500 Wh kapacitású, lítium-ion akkumulátor lát el energiával. A hajótest szénszál-erősítésű prepreg és nomex méhsejt szerkezetből készült, így könnyű, mégis rendkívül merev. A 7 m²-nyi napelem három nagy hatásfokú MPPT-n keresztül biztosítja az energiaellátást. Lana a csapat legújabb fejlesztése, amely a fenntartható vízi közlekedés jövőjét képviseli.
           </p>
         </div>
       </div>
@@ -62,14 +58,14 @@ const SolarBoatProjectSlide = () => {
             <p className="opacity-50">top speed</p>
           </div>
           <div className="w-fit text-center text-2xl">
-            <HazeIcon size={48} className="stroke-bme-blue dark:stroke-bme-orange mx-auto" />
-            <p>1000+ kW</p>
-            <p className="opacity-50">napelem energia</p>
+            <ArrowsUpFromLine size={48} className="stroke-bme-blue dark:stroke-bme-orange mx-auto" />
+            <p>pilonok</p>
+            <p className="opacity-50">a hajó a víz felett siklik</p>
           </div>
           <div className="w-fit text-center text-2xl">
-            <MapIcon size={48} className="stroke-bme-blue dark:stroke-bme-orange mx-auto" />
-            <p>40+ km</p>
-            <p className="opacity-50">max távolság</p>
+            <BrainCircuit size={48} className="stroke-bme-blue dark:stroke-bme-orange mx-auto" />
+            <p>AI</p>
+            <p className="opacity-50">önvezető hajó</p>
           </div>
         </div>
       </div>

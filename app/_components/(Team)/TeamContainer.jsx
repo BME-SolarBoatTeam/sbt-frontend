@@ -1,10 +1,10 @@
 'use client';
 
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '~/components/ui/accordion';
-import { cn } from '~/lib/utils';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../../../components/ui/accordion';
+import { cn } from '../../../lib/utils';
 import TeamLeader from './TeamLeader';
 import TeamMember from './TeamMember';
-import { Separator } from '~/components/ui/separator';
+import { Separator } from '../../../components/ui/separator';
 
 const TeamContainer = ({ group, setRefresh }) => {
   return (

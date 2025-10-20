@@ -1,7 +1,7 @@
 'use client';
 
 import { GaugeIcon, HazeIcon, MapIcon } from 'lucide-react';
-import { Separator } from '~/components/ui/separator';
+import { Separator } from '../../../components/ui/separator';
 
 const MobileAIBPS = () => {
   return (
@@ -62,7 +62,7 @@ const MobileAIBPS = () => {
           </svg>
           <p className="my-2 w-full text-center text-sm opacity-75">2. gen hajó</p>
           <Separator className="bg-bme-black/50 dark:bg-bme-white/50 h-px" />
-          <div className="mt-2 flex flex-col items-center gap-2">
+          {/*<div className="mt-2 flex flex-col items-center gap-2">
             <div className="w-fit text-center text-2xl">
               <GaugeIcon size={28} className="stroke-bme-blue dark:stroke-bme-orange mx-auto" />
               <p className="text-base">25 km/h</p>
@@ -78,7 +78,7 @@ const MobileAIBPS = () => {
               <p className="text-base">40+ km</p>
               <p className="text-sm opacity-50">max távolság</p>
             </div>
-          </div>
+          </div>*/}
         </div>
         <div className="flex w-full gap-2">
           <Separator orientation="vertical" className="bg-bme-black/50 dark:bg-bme-white/50 h-full" />
@@ -87,10 +87,7 @@ const MobileAIBPS = () => {
               <h1 className="px-2 text-xl">AI - Boat Projekt</h1>
             </div>
             <p className="line-clamp-15 overflow-hidden text-justify text-sm">
-              A Trimarán Boat az AI – Boat Projekt zászlóshajója, amely a mesterséges intelligencia és a fenntartható
-              technológia házasságából született. A projekt 2024-ben indult azzal a céllal, hogy automatizált hajózási
-              rendszereket hozzon létre, amelyek képesek önállóan navigálni, energiát optimalizálni és valós idejű
-              döntéseket hozni a környezet alapján.
+              Folyamatban lévő projektünk egy új, trimarán hajó elkészítése. A harmadik generációs hajónkon újraterveztük a hajtást, kontrapropellerrel javítva a hatásfokot az optimális súly és teljesítmény elérése érdekében. Új megoldások használásával és eddig gyűjtött tapasztalatainkkal célunk csökkenteni a közegellenállást és biztosítani a hullámzásnak való jobb kitettséget. A három testű új design maximálizálja a döntésstabilitást és minimalizálja a hajó súlyát, ettől a mezőnybeli pozíciónk javítását várjuk.
             </p>
           </div>
         </div>

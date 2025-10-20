@@ -1,7 +1,7 @@
 'use client';
 
 import { GaugeIcon, HazeIcon, MapIcon } from 'lucide-react';
-import { Separator } from '~/components/ui/separator';
+import { Separator } from '../../../components/ui/separator';
 
 const AIBoatProjectSlide = () => {
   return (
@@ -71,17 +71,12 @@ const AIBoatProjectSlide = () => {
         <div className="flex gap-8">
           <Separator orientation="vertical" className="bg-bme-black/50 dark:bg-bme-white/50 w-[2px]" />
           <p className="text-justify">
-            A Trimarán Boat az AI – Boat Projekt zászlóshajója, amely a mesterséges intelligencia és a fenntartható
-            technológia házasságából született. A projekt 2024-ben indult azzal a céllal, hogy automatizált hajózási
-            rendszereket hozzon létre, amelyek képesek önállóan navigálni, energiát optimalizálni és valós idejű
-            döntéseket hozni a környezet alapján. Az AI rendszer képes felismerni más hajókat, akadályokat és időjárási
-            viszonyokat, így a Trimarán Boat ideális kutató- és felderítő missziókra, vagy akár autonóm szállítási
-            feladatokra is. Az AI rendszer képes felismerni más hajókat, akadályokat és időjárási viszonyokat, így a
-            Trimarán Boat ideális kutató- és felderítő missziókra, vagy akár autonóm szállítási feladatokra is.
+          Folyamatban lévő projektünk egy új, trimarán hajó elkészítése. A harmadik generációs hajónkon újraterveztük a hajtást, kontrapropellerrel javítva a hatásfokot az optimális súly és teljesítmény elérése érdekében. Új megoldások használásával és eddig gyűjtött tapasztalatainkkal célunk csökkenteni a közegellenállást és biztosítani a hullámzásnak való jobb kitettséget. A három testű új design maximálizálja a döntésstabilitást és minimalizálja a hajó súlyát, ettől a mezőnybeli pozíciónk javítását várjuk.
+
           </p>
         </div>
       </div>
-      <div className="flex flex-col gap-8">
+      {/*<div className="flex flex-col gap-8">
         <Separator className="bg-bme-black/50 dark:bg-bme-white/50 h-[2px]" />
         <div className="flex items-center justify-around">
           <div className="w-fit text-center text-2xl">
@@ -100,7 +95,7 @@ const AIBoatProjectSlide = () => {
             <p className="opacity-50">max távolság</p>
           </div>
         </div>
-      </div>
+      </div>*/}
     </div>
   );
 };

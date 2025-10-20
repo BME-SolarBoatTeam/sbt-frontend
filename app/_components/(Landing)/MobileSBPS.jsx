@@ -1,7 +1,7 @@
 'use client';
 
-import { GaugeIcon, HazeIcon, MapIcon } from 'lucide-react';
-import { Separator } from '~/components/ui/separator';
+import { GaugeIcon, ArrowsUpFromLine, BrainCircuit } from 'lucide-react';
+import { Separator } from '../../../components/ui/separator';
 
 const MobileSBPS = () => {
   return (
@@ -37,14 +37,14 @@ const MobileSBPS = () => {
               <p className="text-sm opacity-50">top speed</p>
             </div>
             <div className="w-fit text-center text-2xl">
-              <HazeIcon size={28} className="stroke-bme-blue dark:stroke-bme-orange mx-auto" />
-              <p className="text-base">1000+ kW</p>
-              <p className="text-sm opacity-50">napelem energia</p>
+              <ArrowsUpFromLine size={28} className="stroke-bme-blue dark:stroke-bme-orange mx-auto" />
+              <p className="text-base">pilonok</p>
+              <p className="text-sm opacity-50">a hajó a víz felett siklik</p>
             </div>
             <div className="w-fit text-center text-2xl">
-              <MapIcon size={28} className="stroke-bme-blue dark:stroke-bme-orange mx-auto" />
-              <p className="text-base">40+ km</p>
-              <p className="text-sm opacity-50">max távolság</p>
+              <BrainCircuit size={28} className="stroke-bme-blue dark:stroke-bme-orange mx-auto" />
+              <p className="text-base">AI</p>
+              <p className="text-sm opacity-50">önvezető hajó</p>
             </div>
           </div>
         </div>
@@ -55,11 +55,7 @@ const MobileSBPS = () => {
               <h1 className="px-2 text-xl">SolarBoat Projekt</h1>
             </div>
             <p className="line-clamp-15 overflow-hidden text-justify text-sm">
-              Lana, a második generációs napelemes hajónk, a fenntarthatóság és a mérnöki precizitás tökéletes ötvözete.
-              A projekt 2022-ben indult, egy ambiciózus diákcsapat kezdeményezésére a Műszaki Egyetemről. Céljuk az
-              volt, hogy egy olyan vízi járművet hozzanak létre, amely nemcsak környezetbarát, hanem versenyképes
-              teljesítményt is nyújt. A Lana nemcsak technikai csoda, hanem inspiráció is: egy élő bizonyíték arra, hogy
-              fiatal mérnökök és környezettudatos gondolkodásmód képes valódi változást hozni a jövő közlekedésébe.
+              Lana 2019-óta a BME Solar Boat Team saját tervezésű, napenergiával hajtott hajója. A járművet egy 7,5 kW-os BLDC motor hajtja, amelyet egy 1500 Wh kapacitású, lítium-ion akkumulátor lát el energiával. A hajótest szénszál-erősítésű prepreg és nomex méhsejt szerkezetből készült, így könnyű, mégis rendkívül merev. A 7 m²-nyi napelem három nagy hatásfokú MPPT-n keresztül biztosítja az energiaellátást. Lana a csapat legújabb fejlesztése, amely a fenntartható vízi közlekedés jövőjét képviseli.
             </p>
           </div>
         </div>
