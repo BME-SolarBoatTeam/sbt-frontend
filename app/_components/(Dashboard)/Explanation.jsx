@@ -12,8 +12,8 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '~/components/ui/dialog';
-import { Separator } from '~/components/ui/separator';
+} from '../../../components/ui/dialog';
+import { Separator } from '../../../components/ui/separator';
 import { MobileContext } from '../Providers/Screen-provider';
 import Container from '../(Layouts)/Container';
 

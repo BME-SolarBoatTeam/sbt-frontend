@@ -12,8 +12,8 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '~/components/ui/dialog';
-import { wait } from '~/lib/utils';
+} from '../../../components/ui/dialog';
+import { wait } from '../../../lib/utils';
 
 const ChangeUserStateForm = ({ user, fetchUsers }) => {
   const [open, setOpen] = useState(false);

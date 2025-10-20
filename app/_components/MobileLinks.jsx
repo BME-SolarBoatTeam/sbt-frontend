@@ -89,7 +89,7 @@ import { Accordion, AccordionItem, AccordionTrigger } from '../../components/ui/
                     )}
                 </div>
                 ) : (
-                <Link
+                /*<Link
                     scroll
                     href={'/login'}
                     className="dark:bg-bme-white bg-bme-black text-bme-white dark:text-bme-black mx-auto mt-6 flex w-fit items-center justify-between gap-1 rounded-full px-12 py-1 text-center text-2xl lg:mt-0 lg:text-xl"
@@ -97,7 +97,7 @@ import { Accordion, AccordionItem, AccordionTrigger } from '../../components/ui/
                 >
                     LOGIN
                 </Link>
-                )}
+                */null)}
             </div>
             </div>
         )}
