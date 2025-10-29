@@ -53,14 +53,11 @@ export default function Page() {
         </div>
         <div className="mx-auto max-w-3xl text-center space-y-4 leading-relaxed opacity-90">
           <p>
-            A BME Solar boat csapata 2014-ben három gépészmérnök hallgató kezdeményezéséből indult, céljuk egy ember által vezetett, kizárólag napenergiával működő versenyhajó elkészítése volt. Mára már a 3. generációs hajó tervein dolgozik az egyetem minden karjáról érkező hallgató. Csapatunkban fontos szerepet kap a folyamatos fejlődés és a különböző szakok együttműködése.
-          </p>
+            A BME Solar Boat Team egy 2014-ben alakult versenycsapat, ami három gépészmérnök hallgató kezdeményezéseinek eredménye. Elsődleges céljuk az volt, hogy egy ember által vezetett, kizárólag napenergiával működő versenyhajót építsenek. A csapatban mindig fontos szerepet kapott a folyamatos fejlődés, így idővel a különböző szakokról csatlakozó hallgatók együttműködése is. Mára már a 3. generációs hajónk tervein dolgozik a társaság minden tagja.           </p>
           <p>
-            Célunk a nemzetközi versenyeken eredményes helyezéseket elérni, szem előtt tartva a környezetbarátságot, és népszerűsíteni a fenntartható technológiákat. A 2014-es megalakulás óta folyamatosan fejlődünk, és egyaránt nemzetközi és hazai versenyeken is kiemelkedő eredményeket tudhatunk magunk mögött. Németországban és Monacoban is pódiumos helyezéseket értünk el a második generációs hajónkal, és minden tudásunkal arra törekszünk, hogy ennél is jobbak legyünk, hiszen versenycsapatunk hosszú távban gondolkodik.
-          </p>
+            Célunk a nemzetközi versenyeken való eredményes részvétel, mindez szem előtt tartva a környezetbarátságot és népszerűsítve a fenntartható technológiákat. Megalakulásunk óta számos nemzetközi és hazai versenyt tudhatunk magunk mögött, kiemelkedő eredményekkel. Németországban és Monacoban is dobogós helyezéseket értünk el Lanával, a második generációs hajónkkal, azonban minden tudásunkkal arra törekszünk, hogy ennél is jobbak legyünk, hiszen versenycsapatunknak hosszútávú tervei vannak.           </p>
           <p>
-            Számunkra a hajóépítés nem csupán mérnöki kihívás, hanem lehetőség arra is, hogy megmutassuk: a megújuló energia és az innováció kéz a kézben járhat. A fejlesztéseink során nagy hangsúlyt fektetünk a csapatmunkára, a kreatív problémamegoldásra és az új technológiák/ötletek kipróbálására. Hisszük, hogy az egyetemi évek alatt megszerzett tapasztalataink nemcsak a versenypályán, hanem az egyetem után is kamatozni fognak majd.
-          </p>
+            Számunkra a hajóépítés nem csupán mérnöki kihívás, hanem lehetőség arra is, hogy megmutassuk: a megújuló energia és az innováció kéz a kézben járhat. Fejlesztéseink során nagy hangsúlyt fektetünk a csapatmunkára, a kreatív problémamegoldásra és az új technológiák, illetve ötletek kipróbálására. Hisszük, hogy az egyetemi évek alatt megszerzett tapasztalataink nemcsak a versenypályán, hanem az egyetemen túlmutatóan is kamatozni fognak majd.          </p>
         </div>
       </section>
 
@@ -179,12 +176,12 @@ export default function Page() {
             <CompetitionItem
               kind="SOLAR"
               name="Balaton Solar Boat Challenge"
-              desc="Hazánk egyetlen versenye, amelyet Balatonalmádiban rendeznek meg. A háromnapos eseményt erős mezőny és számunkra különösen kellemes helyszín hangulata jellemez."
+              desc="Hazánk egyetlen versenye, amelyet Balatonalmádiban rendeznek meg. A háromnapos eseményt az erős mezőny és a számunkra különösen kellemes helyszín hangulata jellemzi."
             />
             <CompetitionItem
               kind="SOLAR"
               name="Wildauer Solar Boot Regatta"
-              desc="A berlini régióban, Wildau városában kerül megrendezésre, és a szezon záróeseményeként családias légkört teremt, kellemes lezárása a szezon eseményeinek."
+              desc="Ez a verseny a berlini régióban, Wildau városában kerül megrendezésre. A versenyszezon záróeseményeként kellemes, családias légkört teremt."
             />
           </div>
         </div>

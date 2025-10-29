@@ -60,7 +60,7 @@ const MobileAIBPS = () => {
               d="M644.8006,356.9832c-3.4071-1.7028-4.4292-2.896-5.7916-6.4729-3.7479-10.3919-5.9623-41.3956-5.9623-65.7563v-2.7249h-2.7259c-6.6435,0-12.6058-4.9402-12.7765-12.0957,0-1.1923.3409-2.2143,1.1927-3.0662.8514-.6808,3.9181-1.5326,7.1546-1.874,3.2369-.3404,6.3031-1.0221,6.9844-1.3625.511-.3404,1.5331-6.1325,2.385-14.6504,1.3629-15.3312,1.7038-16.5235,3.7479-18.3974,1.0221-1.0221,2.3845-1.3634,4.0883-1.3634,3.9181,0,8.8583,2.2153,11.0727,5.6219.8519,1.1923,1.1927,2.3845,1.1927,5.6219l-.3409,8.517c-.3409,4.2595-.511,8.0064-.511,10.2217l.1702,2.2143c.1707.1702,2.0442.3404,4.5998.3404h5.6214c10.5616,0,16.3537,1.874,19.42,5.1104,1.874,1.7038,2.7259,3.2374,2.7259,4.77,0,1.0221-.511,2.0442-1.3629,2.896s-1.7038,1.1923-4.259,2.2143c-11.0727,1.3634-5.7916.6817-17.2052,1.7038-4.5998.5115-6.3031.3404-10.5621,1.0221l.511,21.2944c.6817,28.6182,2.385,44.632,5.1109,48.379,1.1923,1.5336,1.7033,2.7259,1.7033,3.5777,0,1.1923-.6812,2.0442-2.0442,3.4066-1.874,1.7038-4.4292,2.5557-7.155,2.5557-2.3845,0-4.7695-.5115-6.9844-1.7038Z"
             />
           </svg>
-          <p className="my-2 w-full text-center text-sm opacity-75">2. gen hajó</p>
+          <p className="my-2 w-full text-center text-sm opacity-75">3. gen hajó</p>
           <Separator className="bg-bme-black/50 dark:bg-bme-white/50 h-px" />
           {/*<div className="mt-2 flex flex-col items-center gap-2">
             <div className="w-fit text-center text-2xl">
@@ -84,11 +84,10 @@ const MobileAIBPS = () => {
           <Separator orientation="vertical" className="bg-bme-black/50 dark:bg-bme-white/50 h-full" />
           <div className="w-full">
             <div className="bg-bme-blue dark:bg-bme-orange text-bme-white dark:text-bme-black mb-2 rounded-lg py-2 text-center">
-              <h1 className="px-2 text-xl">AI - Boat Projekt</h1>
+              <h1 className="px-2 text-xl">TB Projekt</h1>
             </div>
             <p className="line-clamp-15 overflow-hidden text-justify text-sm">
-              Folyamatban lévő projektünk egy új, trimarán hajó elkészítése. A harmadik generációs hajónkon újraterveztük a hajtást, kontrapropellerrel javítva a hatásfokot az optimális súly és teljesítmény elérése érdekében. Új megoldások használásával és eddig gyűjtött tapasztalatainkkal célunk csökkenteni a közegellenállást és biztosítani a hullámzásnak való jobb kitettséget. A három testű új design maximálizálja a döntésstabilitást és minimalizálja a hajó súlyát, ettől a mezőnybeli pozíciónk javítását várjuk.
-            </p>
+            Folyamatban lévő projektünk egy új trimarán hajó elkészítése. A harmadik generációs hajónkon újraterveztük a hajtást, kontrapropellerrel javítva a hatásfokot az optimális súly és teljesítmény elérése érdekében. Új megoldások kipróbálásával és eddig gyűjtött tapasztalataink hasznosításával célunk csökkenteni a közegellenállást és biztosítani a hullámzásnak való jobb kitettséget. A háromtestű új dizájn maximalizálja a döntésstabilitást és minimalizálja a hajó súlyát. Az új hajótól lényeges mezőnybeli javulást várunk.              </p>
           </div>
         </div>
       </div>

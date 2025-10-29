@@ -8,7 +8,7 @@ const AIBoatProjectSlide = () => {
     <div className="grid h-fit w-full gap-8">
       <div className="m-4 flex h-full flex-col items-center">
         <div className="bg-bme-blue dark:bg-bme-orange dark:shadow-bme-orange shadow-bme-blue mx-auto flex h-10 w-fit items-center rounded-t-lg px-12 py-8 shadow-[0px_0px_6px_2px]">
-          <h1 className="text-bme-white dark:text-bme-black text-4xl">AI - Boat Projekt</h1>
+          <h1 className="text-bme-white dark:text-bme-black text-4xl">TB Projekt</h1>
         </div>
         {/* eslint-disable-next-line */}
         <img src="/projekt_AI_21_9.webp" alt="Image" className="aspect-21/9 max-h-56 rounded-4xl shadow-xl" />
@@ -66,15 +66,13 @@ const AIBoatProjectSlide = () => {
             />
           </svg>
           <br />
-          <p className="w-full text-center text-base opacity-75">2. gen hajó</p>
+          <p className="w-full text-center text-base opacity-75">3. gen hajó</p>
         </div>
         <div className="flex gap-8">
           <Separator orientation="vertical" className="bg-bme-black/50 dark:bg-bme-white/50 w-[2px]" />
           <p className="text-justify">
-          Folyamatban lévő projektünk egy új, trimarán hajó elkészítése. A harmadik generációs hajónkon újraterveztük a hajtást, kontrapropellerrel javítva a hatásfokot az optimális súly és teljesítmény elérése érdekében. Új megoldások használásával és eddig gyűjtött tapasztalatainkkal célunk csökkenteni a közegellenállást és biztosítani a hullámzásnak való jobb kitettséget. A három testű új design maximálizálja a döntésstabilitást és minimalizálja a hajó súlyát, ettől a mezőnybeli pozíciónk javítását várjuk.
-
-          </p>
-        </div>
+          Folyamatban lévő projektünk egy új trimarán hajó elkészítése. A harmadik generációs hajónkon újraterveztük a hajtást, kontrapropellerrel javítva a hatásfokot az optimális súly és teljesítmény elérése érdekében. Új megoldások kipróbálásával és eddig gyűjtött tapasztalataink hasznosításával célunk csökkenteni a közegellenállást és biztosítani a hullámzásnak való jobb kitettséget. A háromtestű új dizájn maximalizálja a döntésstabilitást és minimalizálja a hajó súlyát. Az új hajótól lényeges mezőnybeli javulást várunk. </p>       
+          </div>
       </div>
       {/*<div className="flex flex-col gap-8">
         <Separator className="bg-bme-black/50 dark:bg-bme-white/50 h-[2px]" />

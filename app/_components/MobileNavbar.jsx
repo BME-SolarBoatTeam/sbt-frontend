@@ -11,10 +11,11 @@ const MobileNavbar = ({ handleToggle }) => {
       id="mobile-navbar"
       className="text-bme-black dark:text-bme-white relative z-999 flex items-center justify-between gap-6 lg:hidden"
     >
+      <ModeToggle />
       <Link href={'/'} scroll>
         <Image priority src={'/navbar/logo.svg'} width={64} height={64} alt="Logo" />
       </Link>
-      <ModeToggle />
+      
       <AlignJustifyIcon
         onClick={handleToggle}
         size={48}

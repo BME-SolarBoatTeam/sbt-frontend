@@ -45,8 +45,7 @@ const SolarBoatProjectSlide = () => {
         <div className="flex gap-8">
           <Separator orientation="vertical" className="bg-bme-black/50 dark:bg-bme-white/50 w-[2px]" />
           <p className="text-justify">
-            Lana 2019-óta a BME Solar Boat Team saját tervezésű, napenergiával hajtott hajója. A járművet egy 7,5 kW-os BLDC motor hajtja, amelyet egy 1500 Wh kapacitású, lítium-ion akkumulátor lát el energiával. A hajótest szénszál-erősítésű prepreg és nomex méhsejt szerkezetből készült, így könnyű, mégis rendkívül merev. A 7 m²-nyi napelem három nagy hatásfokú MPPT-n keresztül biztosítja az energiaellátást. Lana a csapat legújabb fejlesztése, amely a fenntartható vízi közlekedés jövőjét képviseli.
-          </p>
+          Lana 2018-óta a BME Solar Boat Team saját tervezésű, napenergiával hajtott hajója. A járművet egy 7,5 kW-os BLDC motor hajtja, amelyet egy 1500 Wh kapacitású, lítium-ion akkumulátor lát el energiával. A hajótest szénszál-erősítésű prepreg és nomex méhsejt szerkezetből készült, így könnyű, mégis rendkívül merev. A 6 m²-nyi napelem által termelt energia három nagy hatásfokú MPPT-n keresztül jut tovább a rendszerbe. Az MPPT-k a napelemek működését optimalizálják, így mindig a lehető legtöbb energiát hasznosítják. Lana a csapat legújabb fejlesztése, amely a fenntartható vízi közlekedés jövőjét képviseli.          </p>
         </div>
       </div>
       <div className="z-5 flex flex-col gap-8">
