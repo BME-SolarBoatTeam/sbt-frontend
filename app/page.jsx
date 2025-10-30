@@ -59,7 +59,7 @@ export default function Home() {
             <p className="text-justify text-xs font-extralight md:mx-auto md:text-base">
             A BME Solar Boat Team egy 2014-ben alapított versenycsapat, ami eredetileg gépészmérnök hallgatókból állt, de mára már a BME számos más karáról is vannak tagjaink. Egyetemistákból álló csapatunk célja napenergiával hajtott versenyhajók fejlesztése. Fontos számunkra a fejlődés  mind technikai szinten, mind csapatmunka szempontjából. Második generációs hajónkkal több nemzetközi versenyen is értünk el kimagasló eredményeket, többek között Monacoban, Németországban és a Balatonon is. Hiszünk abban, hogy a jövő a fenntartható technológiáké, és minden nap azon dolgozunk, hogy ezt a jövőt mi is alakítsuk.            </p>
             <Link
-              href={'/aboutus#kik-vagyunk-mi'}
+              href={'/aboutus#who-are-we'}
               className="hover:bg-hovered-bme-blue dark:bg-bme-orange hover:dark:bg-hovered-bme-orange bg-bme-blue text-bme-white dark:text-bme-black mx-auto mt-6 flex w-fit items-center justify-between gap-1 rounded-full px-4 py-1 text-center text-sm lg:mt-0 lg:text-xl"
             >
               Tudj meg többet rólunk
@@ -86,7 +86,7 @@ export default function Home() {
           <h1 className="mb-4 text-center text-xl lg:text-3xl">Fedezd fel</h1>
           <div className="mx-auto flex w-full flex-wrap justify-center gap-4 lg:gap-6">
             <ExploreFlagLink 
-              href="/aboutus#versenyeink"
+              href="/aboutus#competitions"
               text={'Bővebben versenyeinkről >'} 
               imgAlt={'Versenyeink'} 
               imgSrc={'/more/button1.webp'} 

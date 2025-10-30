@@ -35,7 +35,7 @@ export default function Page() {
       </header>
 
       {/* --- 1) Kik vagyunk mi --- */}
-      <section id="kik-vagyunk-mi" className="mx-auto w-full max-w-5xl">
+      <section id="who-are-we" className="mx-auto w-full max-w-5xl">
         <h2 className="mb-4 text-center text-xl font-semibold lg:text-3xl">
           <span
             className="
@@ -77,7 +77,7 @@ export default function Page() {
       </section>
 
       {/* --- 2) Csapatunk felépítése --- */}
-      <section id="csapatunk-felepitese" className="mx-auto w-full max-w-6xl">
+      <section id="team-sctructure" className="mx-auto w-full max-w-6xl">
         <h2 className="mb-4 text-center text-xl font-semibold lg:text-3xl">
           <span
             className="
@@ -158,7 +158,7 @@ export default function Page() {
       </section>
 
       {/* --- 3) Versenyeink --- */}
-      <section id="versenyeink" className="mx-auto w-full max-w-5xl px-4 sm:px-6 lg:px-0">
+      <section id="competitions" className="mx-auto w-full max-w-5xl px-4 sm:px-6 lg:px-0">
         <h2 className="mb-4 text-center text-xl font-semibold lg:text-3xl">
           <span className="
             relative z-10 bg-gradient-to-r
