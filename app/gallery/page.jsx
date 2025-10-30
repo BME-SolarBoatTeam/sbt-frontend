@@ -28,19 +28,19 @@ export default function Page() {
         <GalleryTile
             href="/gallery/monaco"
             title="Monaco"
-            src="/images/gallery/monaco/monaco_borito.png"
+            src="/images/gallery/monaco_borito.jpg"
             alt="Monaco galéria borítóképe"
         />
         <GalleryTile
             href="/gallery/wildau"
             title="Wildau"
-            src="/images/gallery/wildau/cover.jpg"
+            src="/images/gallery/wildau_borito.jpg"
             alt="Wildau galéria borítóképe"
         />
         <GalleryTile
             href="/gallery/balaton"
             title="Balaton"
-            src="/images/gallery/balaton/cover.jpg"
+            src="/images/gallery/balaton_borito.jpg"
             alt="Balaton galéria borítóképe"
         />
         </div>

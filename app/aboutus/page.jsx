@@ -48,9 +48,25 @@ export default function Page() {
             Kik vagyunk mi?
           </span>
         </h2>
-        <div className="mt-7">
-          <Figure src="/images/about/hero.jpg" alt="Csapatkép" />
-        </div>
+          <div className="mt-7 mx-auto w-full max-w-5xl px-4 sm:px-0">
+            {/* Mobil: csak 1 kép, oldalsó margó a wrapper px-4-től */}
+            <div className="block sm:hidden mb-8">
+              <img
+                src="/images/this_is_us1.jpg"
+                alt="Csapatkép"
+                className="w-full h-64 rounded-xl object-cover"
+                draggable={false}
+              />
+            </div>
+
+            {/* ≥sm: rács, itt már nincs extra oldal-margó (sm:px-0) */}
+            <div className="hidden sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+              <img src="/images/this_is_us2.jpg" alt="Csapatkép2"  className="w-full h-auto rounded-xl object-cover" />
+              <img src="/images/this_is_us1.jpg" alt="Csapatkép1" className="w-full h-auto rounded-xl object-cover" />
+              <img src="/images/this_is_us3.jpg" alt="Kostyi"     className="w-full h-auto rounded-xl object-cover" />
+            </div>
+          </div>
+
         <div className="mx-auto max-w-3xl text-center space-y-4 leading-relaxed opacity-90 px-4 sm:px-6 lg:px-0">
           <p>
             A BME Solar Boat Team egy 2014-ben alakult versenycsapat, ami három gépészmérnök hallgató kezdeményezéseinek eredménye.
@@ -106,9 +122,9 @@ export default function Page() {
               title="Gépészet"
               description="A gépészeti csoport felelős a hajó konstrukciójáért, anyagtechnológiáért és szimulációkért. Feladataik közé tartozik a kompozit szerkezet fejlesztése, valamint gyártási folyamatok kivitelezése."
               images={[
-                { src: '/images/team/gepeszet/1.jpg', alt: 'Szimuláció' },
-                { src: '/images/team/gepeszet/2.jpg', alt: 'Gyártás' },
-                { src: '/images/team/gepeszet/3.jpg', alt: 'Laminálás' },
+                { src: '/images/team_structure/gepeszet1.jpg', alt: 'Gépészet1' },
+                { src: '/images/team_structure/gepeszet2.jpg', alt: 'Gépészet2' },                
+                { src: '/images/team_structure/gepeszet3.jpg', alt: 'Gépészet3' },
               ]}
             />
           </div>
@@ -127,9 +143,9 @@ export default function Page() {
               title="Elektrotechnika"
               description="Az elektronikai csoport foglalkozik a hajó elektromos rendszereinek és vezérlésének tervezésével, kivitelezésével, valamint az informatika és elektrotechnika területeivel. Ide tartozik a napelemes energiaellátás, a hajtásrendszer irányítása, az érzékelők és fedélzeti elektronika fejlesztése is."
               images={[
-                { src: '/images/team/elektro/1.jpg', alt: 'PCB tervezés' },
-                { src: '/images/team/elektro/2.jpg', alt: 'Forrasztás és mérés' },
-                { src: '/images/team/elektro/3.jpg', alt: 'Telemetria teszt' },
+                { src: '/images/team_structure/elektro1.jpg', alt: 'Elektro1' },
+                { src: '/images/team_structure/elektro2.jpg', alt: 'Elektro2' },                
+                { src: '/images/team_structure/elektro3.jpg', alt: 'Elektro3' },
               ]}
             />
           </div>
@@ -148,9 +164,9 @@ export default function Page() {
               title="Gazdaság"
               description="A gazdasági csoport felel a marketing, pénzügyi ügyek lebonyolításáért. Ők gondoskodnak a szponzori kapcsolatok kiépítéséről, a csapat működéséhez szükséges források előteremtéséről, továbbá ők szervezik a külső kommunikációt és a csapat promócióját."
               images={[
-                { src: '/images/team/gazdasag/1.jpg', alt: 'Szponzor tárgyalás' },
-                { src: '/images/team/gazdasag/2.jpg', alt: 'Költségtervezés' },
-                { src: '/images/team/gazdasag/3.jpg', alt: 'Eseményszervezés' },
+                { src: '/images/team_structure/gazdasag1.jpeg', alt: 'Gazdaság1' },
+                { src: '/images/team_structure/gazdasag2.jpeg', alt: 'Gazdaság2' },                
+                { src: '/images/team_structure/gazdasag3.jpeg', alt: 'Gazdaság3' },
               ]}
             />
           </div>

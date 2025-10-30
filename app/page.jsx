@@ -35,7 +35,7 @@ export default function Home() {
         >
           <div className="relative mt-0 h-full w-full px-1.5 lg:my-auto lg:py-8 lg:pt-8">
             <Image
-              src="/images/this_is_us.webp"
+              src="/images/this_is_us.jpg"
               alt="CSAPAT (front)"
               className="absolute top-1/2 left-1/2 z-1 aspect-16/11 -translate-x-1/2 -translate-y-1/2 self-center rounded-2xl lg:w-96 lg:max-w-96"
               width={384}
@@ -44,7 +44,7 @@ export default function Home() {
               loading="lazy"
             />
             <Image
-              src="/images/this_is_us.webp"
+              src="/images/this_is_us.jpg"
               alt="CSAPAT (back)"
               className="mx-auto aspect-16/11 rounded-2xl blur-lg lg:h-fit lg:w-96 lg:max-w-96"
               width={384}
