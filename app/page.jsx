@@ -2,8 +2,8 @@ import { ChevronRight } from 'lucide-react';
 import Link from 'next/link';
 
 import Image from 'next/image';
-import { InfiniteSlider } from '~/components/ui/infinite-slider';
-import { Separator } from '~/components/ui/separator';
+import { InfiniteSlider } from '../components/ui/infinite-slider';
+import { Separator } from '../components/ui/separator';
 import ExploreFlagLink from './_components/(Landing)/ExploreFlagLink';
 import FilmStripContainer from './_components/(Landing)/FilmStripContainer';
 import FilmStripElement from './_components/(Landing)/FilmStripElement';
@@ -24,11 +24,18 @@ export default function Home() {
         className="dark:bg-bme-dprimary bg-bme-lprimary relative grid grid-flow-row gap-12 lg:gap-32"
       >
         <Container
-          className={'mt-12 flex h-fit w-[85vw] flex-col gap-8 overflow-clip p-8 px-8 lg:w-[60vw] 2xl:flex-row'}
+          className="
+            mt-12 flex h-fit w-[85vw] flex-col gap-8 overflow-clip p-8 px-8 lg:w-[60vw] 2xl:flex-row
+            rounded-3xl ring-1 ring-black/10 dark:ring-white/15
+            bg-gradient-to-r
+            from-[var(--color-bme-blue)] via-[var(--color-bme-purple)] to-[var(--color-bme-blue)]
+            dark:from-[var(--color-bme-purple)] dark:via-[var(--color-bme-orange)] dark:to-[var(--color-bme-purple)]
+            text-white
+          "
         >
           <div className="relative mt-0 h-full w-full px-1.5 lg:my-auto lg:py-8 lg:pt-8">
             <Image
-              src="/images/this_is_us.webp"
+              src="/images/this_is_us.jpg"
               alt="CSAPAT (front)"
               className="absolute top-1/2 left-1/2 z-1 aspect-16/11 -translate-x-1/2 -translate-y-1/2 self-center rounded-2xl lg:w-96 lg:max-w-96"
               width={384}
@@ -37,7 +44,7 @@ export default function Home() {
               loading="lazy"
             />
             <Image
-              src="/images/this_is_us.webp"
+              src="/images/this_is_us.jpg"
               alt="CSAPAT (back)"
               className="mx-auto aspect-16/11 rounded-2xl blur-lg lg:h-fit lg:w-96 lg:max-w-96"
               width={384}
@@ -46,20 +53,13 @@ export default function Home() {
               loading="lazy"
             />
           </div>
+
           <div className="my-auto flex h-full flex-col items-center justify-center gap-3 pt-0 lg:p-0">
-            <h3 className="text-center text-xl lg:text-3xl">Rólunk</h3>
+            <h3 className="text-center text-xl lg:text-3xl">Kik vagyunk mi?</h3>
             <p className="text-justify text-xs font-extralight md:mx-auto md:text-base">
-              Csapatunk 2014 óta foglalkozik napenergiával hajtott versenyhajók fejlesztésével, illetve építésével, és
-              mára több mint 100 magyar egyetemista járult hozzá a projektünkhöz. Második generációs hajónk, Lana,
-              nemzetközi versenyeken is bizonyított, például Monacóban, Németországban és a Balatonon. Jelenleg
-              egyszerre fejlesztjük tovább Lanát és építjük a harmadik hajónkat is, amely során a mesterséges
-              intelligenciát is alkalmazzuk az önvezetés területén. Projektünk célja továbbá, hogy népszerűsítse a
-              megújuló energiát és az elektromos járműépítést, miközben értékes szakmai tapasztalatot nyújt a résztvevő
-              hallgatóknak. Víziónk, hogy hozzájáruljunk a fenntartható hajózás jövőjéhez, és mérnökeink tudása révén
-              alakítsuk jövő zöld közlekedést.
-            </p>
+            A BME Solar Boat Team egy 2014-ben alapított versenycsapat, ami eredetileg gépészmérnök hallgatókból állt, de mára már a BME számos más karáról is vannak tagjaink. Egyetemistákból álló csapatunk célja napenergiával hajtott versenyhajók fejlesztése. Fontos számunkra a fejlődés  mind technikai szinten, mind csapatmunka szempontjából. Második generációs hajónkkal több nemzetközi versenyen is értünk el kimagasló eredményeket, többek között Monacoban, Németországban és a Balatonon is. Hiszünk abban, hogy a jövő a fenntartható technológiáké, és minden nap azon dolgozunk, hogy ezt a jövőt mi is alakítsuk.            </p>
             <Link
-              href={'/team'}
+              href={'/aboutus#who-are-we'}
               className="hover:bg-hovered-bme-blue dark:bg-bme-orange hover:dark:bg-hovered-bme-orange bg-bme-blue text-bme-white dark:text-bme-black mx-auto mt-6 flex w-fit items-center justify-between gap-1 rounded-full px-4 py-1 text-center text-sm lg:mt-0 lg:text-xl"
             >
               Tudj meg többet rólunk
@@ -72,7 +72,7 @@ export default function Home() {
         <FilmStripContainer className={'w-screen'}>
           <InfiniteSlider gap={0} duration={60}>
             <div className="flex w-fit shrink-0">
-              {Array.from({ length: 12 }, (_, i) => i).map((i) => (
+              {Array.from({ length: 11 }, (_, i) => i).map((i) => (
                 <FilmStripElement key={i} imageURL={`/images/carousel/${i + 1}kep.webp`} />
               ))}
             </div>
@@ -85,28 +85,34 @@ export default function Home() {
         <Container className={'lg:p8 mb-12 h-fit w-[85vw] gap-4 px-4 py-8 lg:w-[60vw] lg:p-8'}>
           <h1 className="mb-4 text-center text-xl lg:text-3xl">Fedezd fel</h1>
           <div className="mx-auto flex w-full flex-wrap justify-center gap-4 lg:gap-6">
-            <ExploreFlagLink text={'További versenyeink >'} imgAlt={'Versenyeink'} imgSrc={'/more/button1.webp'} />
+            <ExploreFlagLink 
+              href="/aboutus#competitions"
+              text={'Bővebben versenyeinkről >'} 
+              imgAlt={'Versenyeink'} 
+              imgSrc={'/more/button1.webp'} 
+            />
             <ExploreFlagLink
-              href="/team"
-              text={'További tagjaink >'}
-              imgAlt={'Tagjaink'}
+              href="/aboutus#achievements"
+              text={'Bővebben eredményekeinkről >'}
+              imgAlt={'Eredményeink'}
               imgSrc={'/more/button2.webp'}
             />
             <ExploreFlagLink
-              text={'További megorokitett képeink >'}
+              href="/gallery"
+              text={'Bővebben galériánkról >'}
               imgAlt={'Versenyeink'}
               imgSrc={'/more/button3.webp'}
             />
             <ExploreFlagLink
               href="/sponsors"
-              text={'További szponzorok >'}
+              text={'Bővebben szponzorainkról >'}
               imgAlt={'Szponzorok'}
               imgSrc={'/more/button4.webp'}
             />
             <ExploreFlagLink
-              href="/achievements"
-              text={'További eredményekeink >'}
-              imgAlt={'Eredményeink'}
+              href="/members"
+              text={'Bővebben tagjainkról >'}
+              imgAlt={'Tagjaink'}
               imgSrc={'/more/button5.webp'}
             />
           </div>

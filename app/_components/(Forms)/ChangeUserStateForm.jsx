@@ -3,7 +3,7 @@
 import { CheckIcon, XIcon } from 'lucide-react';
 import { useState } from 'react';
 import { toast } from 'sonner';
-import { Button } from '~/components/ui/button';
+import { Button } from '../../../components/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -12,8 +12,8 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '~/components/ui/dialog';
-import { wait } from '~/lib/utils';
+} from '../../../components/ui/dialog';
+import { wait } from '../../../lib/utils';
 
 const ChangeUserStateForm = ({ user, fetchUsers }) => {
   const [open, setOpen] = useState(false);

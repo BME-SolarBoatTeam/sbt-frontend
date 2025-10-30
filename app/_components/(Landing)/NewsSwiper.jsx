@@ -2,7 +2,7 @@
 
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { cn } from '~/lib/utils';
+import { cn } from '../../../lib/utils';
 import NewsCard from './NewsCard';
 
 import 'swiper/css';

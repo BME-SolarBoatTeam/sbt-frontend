@@ -4,7 +4,7 @@ import { useContext } from 'react';
 import { MobileContext } from '../Providers/Screen-provider';
 import NewsCard from './NewsCard';
 import NewsSwiper from './NewsSwiper';
-import { mockUpNews } from '~/lib/mockupData';
+import { mockUpNews } from '../../../lib/mockupData';
 
 const NewsDisplay = () => {
   const isMobile = useContext(MobileContext);

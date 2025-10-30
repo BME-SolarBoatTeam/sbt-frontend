@@ -16,8 +16,11 @@ const DesktopNavbar = ({ handleLogout, privileged, user }) => {
           <Image priority src={'/navbar/logo.svg'} width={64} height={64} alt="Logo" />
         </Link>
         <div className="flex gap-4">
-          <Link href={'/team'} scroll>
+          <Link href={'/aboutus'} scroll>
             Rólunk
+          </Link>
+          <Link href={'/members'} scroll>
+            Tagjaink
           </Link>
           <Link href={'/news'} scroll>
             Hírek
@@ -26,7 +29,7 @@ const DesktopNavbar = ({ handleLogout, privileged, user }) => {
             Galéria
           </Link>
           <Link href={'/sponsors'} scroll>
-            Szponzorok
+            Szponzoraink
           </Link>
         </div>
       </div>

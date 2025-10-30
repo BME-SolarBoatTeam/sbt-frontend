@@ -1,10 +1,10 @@
 import { ReactLenis } from 'lenis/dist/lenis-react';
-import { siteConfig } from '~/config/site';
+import { siteConfig } from '../config/site';
 import Providers from './_components/Providers/Providers';
 
 import './globals.css';
 import { comfortaa, poppins } from './styles/fonts';
-import { Toaster } from '~/components/ui/sonner';
+import { Toaster } from '../components/ui/sonner';
 
 export const metadata = {
   title: {

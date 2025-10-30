@@ -2,7 +2,7 @@
 
 import { useContext, useState } from 'react';
 import { toast } from 'sonner';
-import { Button } from '~/components/ui/button';
+import { Button } from '../../../components/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -11,11 +11,11 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '~/components/ui/dialog';
-import { HoverCard, HoverCardContent, HoverCardTrigger } from '~/components/ui/hover-card';
-import { Input } from '~/components/ui/input';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '~/components/ui/select';
-import { isAdmin, wait } from '~/lib/utils';
+} from '../../../components/ui/dialog';
+import { HoverCard, HoverCardContent, HoverCardTrigger } from '../../../components/ui/hover-card';
+import { Input } from '../../../components/ui/input';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../../../components/ui/select';
+import { isAdmin, wait } from '../../../lib/utils';
 import { UserContext } from '../Providers/User-provider';
 
 const UploadSponsorForm = () => {

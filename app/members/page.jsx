@@ -10,12 +10,12 @@ const Page = () => {
   return (
     <PageLayout className={'mx-auto grid w-full gap-16'}>
       <h1 className="pt-12 text-center text-xl lg:text-3xl">
-        Ismerd meg a
-        <span className="bg-linear-to-r from-[#FF5F6D] to-[#FFC371] bg-clip-text font-semibold text-transparent">
+        Ismerd meg
+        <span className="bg-linear-to-r from-[var(--color-bme-orange)] to-[var(--color-bme-purple)] bg-clip-text font-semibold text-transparent">
           {' '}
-          csapatunkat
+          tagjainkat
         </span>
-        .
+        !
       </h1>
 
       <TeamPageContent />

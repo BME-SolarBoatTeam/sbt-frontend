@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { wait } from '~/lib/utils';
+import { wait } from '../../../lib/utils';
 import { toast } from 'sonner';
 
 import {
@@ -12,10 +12,10 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '~/components/ui/dialog';
+} from '../../../components/ui/dialog';
 
-import { Input } from '~/components/ui/input';
-import { Button } from '~/components/ui/button';
+import { Input } from '../../../components/ui/input';
+import { Button } from '../../../components/ui/button';
 import { EyeClosedIcon, EyeIcon } from 'lucide-react';
 
 const ResetPasswordForm = ({ user, isOpen, onOpenChange }) => {

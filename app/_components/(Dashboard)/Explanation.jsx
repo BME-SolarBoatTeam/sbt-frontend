@@ -2,7 +2,7 @@
 
 import { BadgeInfoIcon, TriangleAlertIcon } from 'lucide-react';
 import { useContext } from 'react';
-import { Button } from '~/components/ui/button';
+import { Button } from '../../../components/ui/button';
 import {
   Dialog,
   DialogClose,
@@ -12,8 +12,8 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '~/components/ui/dialog';
-import { Separator } from '~/components/ui/separator';
+} from '../../../components/ui/dialog';
+import { Separator } from '../../../components/ui/separator';
 import { MobileContext } from '../Providers/Screen-provider';
 import Container from '../(Layouts)/Container';
 

@@ -2,8 +2,8 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { Separator } from '~/components/ui/separator';
-import { siteConfig } from '~/config/site';
+import { Separator } from '../../components/ui/separator';
+import { siteConfig } from '../../config/site';
 
 const Footer = () => {
   return (
@@ -30,38 +30,37 @@ const Footer = () => {
             </Link>
             <div className="flex flex-col gap-2">
               <p>info@solarboatteam.hu</p>
-              <p>+36 70 608 7004</p>
+              {/*<p>+36 70 608 7004</p>*/}
             </div>
             <Separator className="bg-bme-black/50 dark:bg-bme-white/50 lg:hidden" />
           </div>
           <div className="flex flex-col justify-between gap-8 px-8 lg:flex-row lg:px-0">
             <div className="grid h-fit gap-2">
-              <p className="font-bold">Rólunk</p>
-              <Link href={'/team'} scroll>
-                Csapattagok
+              <p className="font-extrabold mb-4">Rólunk</p>
+              <Link href={"/aboutus#kik-vagyunk-mi"} scroll>
+                Kik vagyunk mi?
               </Link>
-              <Link href={'/achievements'} scroll>
+              <Link href={"/aboutus#csapatunk-felepitese"} scroll>
+                Csapatunk felépítése
+              </Link>
+              <Link href={"/aboutus#versenyeink"} scroll>
+                Versenyeink
+              </Link>
+              <Link href={"/aboutus#achievements"} scroll> 
                 Eredményeink
               </Link>
               <Separator className="bg-bme-black/50 dark:bg-bme-white/50 my-2 lg:hidden" />
             </div>
             <div className="grid h-fit gap-2">
-              <p className="font-bold">Hírek</p>
-              <Link href={''} scroll>
-                Sajtó
-              </Link>
-              <Link href={''} scroll>
-                Blog
-              </Link>
-              <Separator className="bg-bme-black/50 dark:bg-bme-white/50 my-2 lg:hidden" />
-            </div>
-            <div className="grid h-fit gap-2">
-              <p className="font-bold">Egyéb</p>
+              <p className="font-extrabold mb-4">Egyéb</p>
               <Link href={'/gallery'} scroll>
                 Galéria
               </Link>
+              <Link href={'/members'} scroll>
+                Tagjaink
+              </Link>
               <Link href={'/sponsors'} scroll>
-                Szponzorok
+                Szponzoraink
               </Link>
               <Link href={'/contact'} scroll>
                 Elérhetőségek
@@ -79,14 +78,8 @@ const Footer = () => {
       </div>
 
       {/* BOTTOM BLOCK */}
-      <div className="bg-bme-orange shadow-bme-orange/50 !text-bme-black z-1 mx-auto grid h-full w-[60vw] items-center gap-3 self-center rounded-b-xl p-4 py-6 shadow-lg lg:grid-cols-2 lg:p-8">
-        <div className="mx-auto flex items-center gap-2 lg:mx-0 lg:justify-normal lg:gap-6 lg:text-xl">
-          <span className="self-center">Tagoknak</span>
-          <Link href={'/login'} scroll className="bg-bme-black text-bme-white rounded-full px-4 py-1 lg:px-12 lg:py-2">
-            Login
-          </Link>
-        </div>
-        <div className="mx-auto flex gap-1 lg:mx-0 lg:justify-end lg:gap-2 xl:gap-4 2xl:gap-6">
+      <div className="bg-bme-orange shadow-bme-orange/50 !text-bme-black z-[1] mx-auto grid h-full w-[60vw] items-center justify-items-center gap-3 self-center rounded-b-xl p-4 py-6 shadow-lg lg:p-8">
+        <div className="col-span-full mx-auto flex w-full justify-center gap-2 sm:gap-5 md:gap-12 lg:gap-12">
           <Link href={siteConfig.links.instagram} target={'_blank'}>
             <svg
               className="bg-bme-black hover:bg-hovered-bme-black h-8 w-8 rounded-lg p-2 lg:h-10 lg:w-10"

@@ -1,8 +1,8 @@
 import { GlobeIcon, MailIcon, PhoneIcon } from 'lucide-react';
 import Link from 'next/link';
 
-import { Separator } from '~/components/ui/separator';
-import { siteConfig } from '~/config/site';
+import { Separator } from '../../components/ui/separator';
+import { siteConfig } from '../../config/site';
 import PageLayout from '../_components/(Layouts)/PageLayout';
 import Container from '../_components/(Layouts)/Container';
 
@@ -16,10 +16,10 @@ const Page = () => {
     <PageLayout className={'grid items-center justify-center'}>
       <h3 className="py-12 text-center text-xl lg:text-3xl">
         Vedd fel velünk a{' '}
-        <span className="bg-linear-to-r from-[#12C2E9] from-45% via-[#C471ED] via-80% to-[#F64F59] to-100% bg-clip-text font-semibold text-transparent">
+        <span className="bg-linear-to-r from-[var(--color-bme-orange)] to-[var(--color-bme-purple)] bg-clip-text font-semibold text-transparent">
           kapcsolatot
         </span>
-        .
+        !
       </h3>
 
       <Container
@@ -42,7 +42,7 @@ const Page = () => {
             <MailIcon size={20} strokeWidth={1} className="stroke-bme-blue dark:stroke-bme-orange lg:h-8 lg:w-8" />
             <span>info@solarboatteam.hu</span>
           </h3>
-          <div className="flex items-center gap-4">
+          {/*<div className="flex items-center gap-4">
             <PhoneIcon
               size={20}
               strokeWidth={1}
@@ -52,7 +52,7 @@ const Page = () => {
               <p>+36 70 608 7004</p>
               <p className="text-xs opacity-50">Gózcán László, csapatkapitány</p>
             </div>
-          </div>
+          </div>*/}
         </div>
       </Container>
 

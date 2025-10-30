@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { toast } from 'sonner';
-import { Button } from '~/components/ui/button';
+import { Button } from '../../../components/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -11,11 +11,11 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '~/components/ui/dialog';
-import { Input } from '~/components/ui/input';
-import { wait } from '~/lib/utils';
+} from '../../../components/ui/dialog';
+import { Input } from '../../../components/ui/input';
+import { wait } from '../../../lib/utils';
 import { EyeClosedIcon, EyeIcon } from 'lucide-react';
-import { HoverCard, HoverCardContent, HoverCardTrigger } from '~/components/ui/hover-card';
+import { HoverCard, HoverCardContent, HoverCardTrigger } from '../../../components/ui/hover-card';
 
 const RegisterNewUserForm = ({ currentIndex, fetchUsers }) => {
   const [visible, setVisible] = useState(false);

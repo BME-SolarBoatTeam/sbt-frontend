@@ -1,7 +1,7 @@
 'use client';
 
 import { useContext, useState } from 'react';
-import { cn, isAdmin } from '~/lib/utils';
+import { cn, isAdmin } from '../../lib/utils';
 import DesktopNavbar from './DesktopNavbar';
 import MobileLinks from './MobileLinks';
 import MobileNavbar from './MobileNavbar';
