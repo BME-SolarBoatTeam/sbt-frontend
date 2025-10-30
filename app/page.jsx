@@ -72,7 +72,7 @@ export default function Home() {
         <FilmStripContainer className={'w-screen'}>
           <InfiniteSlider gap={0} duration={60}>
             <div className="flex w-fit shrink-0">
-              {Array.from({ length: 12 }, (_, i) => i).map((i) => (
+              {Array.from({ length: 11 }, (_, i) => i).map((i) => (
                 <FilmStripElement key={i} imageURL={`/images/carousel/${i + 1}kep.webp`} />
               ))}
             </div>
@@ -92,9 +92,9 @@ export default function Home() {
               imgSrc={'/more/button1.webp'} 
             />
             <ExploreFlagLink
-              href="/members"
-              text={'Bővebben tagjainkról >'}
-              imgAlt={'Tagjaink'}
+              href="/aboutus#achievements"
+              text={'Bővebben eredményekeinkről >'}
+              imgAlt={'Eredményeink'}
               imgSrc={'/more/button2.webp'}
             />
             <ExploreFlagLink
@@ -110,9 +110,9 @@ export default function Home() {
               imgSrc={'/more/button4.webp'}
             />
             <ExploreFlagLink
-              href="/aboutus#achievements"
-              text={'Bővebben eredményekeinkről >'}
-              imgAlt={'Eredményeink'}
+              href="/members"
+              text={'Bővebben tagjainkról >'}
+              imgAlt={'Tagjaink'}
               imgSrc={'/more/button5.webp'}
             />
           </div>

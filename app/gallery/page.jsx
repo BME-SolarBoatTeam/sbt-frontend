@@ -28,7 +28,7 @@ export default function Page() {
         <GalleryTile
             href="/gallery/monaco"
             title="Monaco"
-            src="/images/gallery/monaco/cover.jpg"
+            src="/images/gallery/monaco/monaco_borito.png"
             alt="Monaco galéria borítóképe"
         />
         <GalleryTile
