@@ -16,8 +16,11 @@ const ProjectContainer = () => {
   const isMobile = useContext(MobileContext);
 
   return (
-    <div className="relative h-screen lg:h-[125vh]">
-      <div className="absolute top-0 left-0 h-full w-full bg-[url(/radial_background.svg)] bg-center bg-no-repeat opacity-50 lg:bg-fixed" />
+    // ✅ Mobil: min-h-screen (NEM fix), Desktop: marad magas
+    <div className="relative min-h-screen lg:h-[125vh]">
+      <div className="absolute left-0 top-0 h-full w-full bg-[url(/radial_background.svg)] bg-center bg-no-repeat opacity-50 lg:bg-fixed" />
+
+      {/* felső hullám */}
       <svg width="1920" viewBox="0 0 1920 133" className="absolute w-screen -translate-y-px rotate-180">
         <path
           fillRule="inherit"
@@ -28,14 +31,18 @@ const ProjectContainer = () => {
         />
       </svg>
 
-      <div className="grid h-screen w-screen grid-flow-col items-center justify-center lg:h-[125vh]">
+      {/* ✅ Mobil: min-h (nem h-screen), Desktop: fix magas */}
+      <div className="grid min-h-screen w-screen grid-flow-col items-center justify-center lg:h-[125vh]">
         {isMobile ? (
-          <div className="flex flex-col">
+          // ✅ Mobil: adjunk alsó paddinget, hogy ne takarja az alsó SVG
+          <div className="flex flex-col pb-16">
             <Swiper
               modules={[Pagination]}
               spaceBetween={50}
               slidesPerView={1}
               loop={true}
+              // ✅ Engedjük, hogy a slide magassága a tartalomhoz igazodjon
+              autoHeight={true}
               pagination={{
                 el: '#swiper-custom-pagination',
                 renderBullet: function (_index, className) {
@@ -50,13 +57,15 @@ const ProjectContainer = () => {
               <SwiperSlide className="w-full">
                 <MobileAIBPS />
               </SwiperSlide>
+
+              {/* pagination container */}
               <div id="swiper-custom-pagination" className="mt-4 flex justify-center gap-2"></div>
             </Swiper>
           </div>
         ) : (
           <>
             <ChevronLeftIcon
-              className="stroke-bme-blue dark:stroke-bme-orange swiper-button-prev-modified z-5 cursor-pointer"
+              className="swiper-button-prev-modified z-5 cursor-pointer stroke-bme-blue dark:stroke-bme-orange"
               size={80}
             />
             <Swiper
@@ -78,14 +87,15 @@ const ProjectContainer = () => {
               </SwiperSlide>
             </Swiper>
             <ChevronRightIcon
-              className="stroke-bme-blue dark:stroke-bme-orange swiper-button-next-modified z-5 cursor-pointer"
+              className="swiper-button-next-modified z-5 cursor-pointer stroke-bme-blue dark:stroke-bme-orange"
               size={80}
             />
           </>
         )}
       </div>
 
-      <div className="after:bg-bme-lprimary dark:after:bg-bme-dprimary absolute bottom-0 w-screen translate-y-px after:absolute after:bottom-0 after:h-px after:w-full">
+      {/* alsó hullám — marad absolute; a pb-16 gondoskodik róla, hogy ne fedjen rá a tartalom */}
+      <div className="after:bg-bme-lprimary dark:after:bg-bme-dprimary pointer-events-none absolute bottom-0 w-screen translate-y-px after:absolute after:bottom-0 after:h-px after:w-full">
         <svg width="1920" viewBox="0 0 1920 133" className="w-screen">
           <path
             fillRule="inherit"
@@ -101,3 +111,4 @@ const ProjectContainer = () => {
 };
 
 export default ProjectContainer;
+

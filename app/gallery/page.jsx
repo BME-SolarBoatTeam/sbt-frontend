@@ -24,7 +24,7 @@ export default function Page() {
         </header>
 
       {/* 3 szekció – kattintható csempék */}
-        <div className="mx-auto grid w-full max-w-6xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mx-auto grid w-full max-w-6xl grid-cols-1 gap-6 lg:grid-cols-3">
         <GalleryTile
             href="/gallery/monaco"
             title="Monaco"

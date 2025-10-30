@@ -51,14 +51,29 @@ export default function Page() {
         <div className="mt-7">
           <Figure src="/images/about/hero.jpg" alt="Csapatkép" />
         </div>
-        <div className="mx-auto max-w-3xl text-center space-y-4 leading-relaxed opacity-90">
+        <div className="mx-auto max-w-3xl text-center space-y-4 leading-relaxed opacity-90 px-4 sm:px-6 lg:px-0">
           <p>
-            A BME Solar Boat Team egy 2014-ben alakult versenycsapat, ami három gépészmérnök hallgató kezdeményezéseinek eredménye. Elsődleges céljuk az volt, hogy egy ember által vezetett, kizárólag napenergiával működő versenyhajót építsenek. A csapatban mindig fontos szerepet kapott a folyamatos fejlődés, így idővel a különböző szakokról csatlakozó hallgatók együttműködése is. Mára már a 3. generációs hajónk tervein dolgozik a társaság minden tagja.           </p>
+            A BME Solar Boat Team egy 2014-ben alakult versenycsapat, ami három gépészmérnök hallgató kezdeményezéseinek eredménye.
+            Elsődleges céljuk az volt, hogy egy ember által vezetett, kizárólag napenergiával működő versenyhajót építsenek.
+            A csapatban mindig fontos szerepet kapott a folyamatos fejlődés, így idővel a különböző szakokról csatlakozó hallgatók együttműködése is.
+            Mára már a 3. generációs hajónk tervein dolgozik a társaság minden tagja.
+          </p>
+
           <p>
-            Célunk a nemzetközi versenyeken való eredményes részvétel, mindez szem előtt tartva a környezetbarátságot és népszerűsítve a fenntartható technológiákat. Megalakulásunk óta számos nemzetközi és hazai versenyt tudhatunk magunk mögött, kiemelkedő eredményekkel. Németországban és Monacoban is dobogós helyezéseket értünk el Lanával, a második generációs hajónkkal, azonban minden tudásunkkal arra törekszünk, hogy ennél is jobbak legyünk, hiszen versenycsapatunknak hosszútávú tervei vannak.           </p>
+            Célunk a nemzetközi versenyeken való eredményes részvétel, mindez szem előtt tartva a környezetbarátságot és népszerűsítve a fenntartható technológiákat.
+            Megalakulásunk óta számos nemzetközi és hazai versenyt tudhatunk magunk mögött, kiemelkedő eredményekkel.
+            Németországban és Monacóban is dobogós helyezéseket értünk el Lanával, a második generációs hajónkkal,
+            azonban minden tudásunkkal arra törekszünk, hogy ennél is jobbak legyünk, hiszen versenycsapatunknak hosszútávú tervei vannak.
+          </p>
+
           <p>
-            Számunkra a hajóépítés nem csupán mérnöki kihívás, hanem lehetőség arra is, hogy megmutassuk: a megújuló energia és az innováció kéz a kézben járhat. Fejlesztéseink során nagy hangsúlyt fektetünk a csapatmunkára, a kreatív problémamegoldásra és az új technológiák, illetve ötletek kipróbálására. Hisszük, hogy az egyetemi évek alatt megszerzett tapasztalataink nemcsak a versenypályán, hanem az egyetemen túlmutatóan is kamatozni fognak majd.          </p>
-        </div>
+            Számunkra a hajóépítés nem csupán mérnöki kihívás, hanem lehetőség arra is, hogy megmutassuk:
+            a megújuló energia és az innováció kéz a kézben járhat.
+            Fejlesztéseink során nagy hangsúlyt fektetünk a csapatmunkára, a kreatív problémamegoldásra és az új technológiák, illetve ötletek kipróbálására.
+            Hisszük, hogy az egyetemi évek alatt megszerzett tapasztalataink nemcsak a versenypályán, hanem az egyetemen túlmutatóan is kamatozni fognak majd.
+          </p>
+        </div>  
+
       </section>
 
       {/* --- 2) Csapatunk felépítése --- */}
@@ -76,7 +91,7 @@ export default function Page() {
           </span>
         </h2>
 
-        <div className="mx-auto max-w-5xl space-y-10">
+        <div className="mx-auto max-w-5xl space-y-10 px-4 sm:px-6 lg:px-0">
           {/* Gépészet */}
           <div
             className="
@@ -143,49 +158,34 @@ export default function Page() {
       </section>
 
       {/* --- 3) Versenyeink --- */}
-      <section id="versenyeink" className="mx-auto w-full max-w-5xl">
+      <section id="versenyeink" className="mx-auto w-full max-w-5xl px-4 sm:px-6 lg:px-0">
         <h2 className="mb-4 text-center text-xl font-semibold lg:text-3xl">
-          <span
-            className="
-              relative z-10 bg-gradient-to-r
-              from-[var(--color-bme-blue)] via-[var(--color-bme-purple)] to-[var(--color-bme-blue)]
-              dark:from-[var(--color-bme-purple)] dark:via-[var(--color-bme-orange)] dark:to-[var(--color-bme-purple)]
-              bg-clip-text text-transparent
-            "
-          >
+          <span className="
+            relative z-10 bg-gradient-to-r
+            from-[var(--color-bme-blue)] via-[var(--color-bme-purple)] to-[var(--color-bme-blue)]
+            dark:from-[var(--color-bme-purple)] dark:via-[var(--color-bme-orange)] dark:to-[var(--color-bme-purple)]
+            bg-clip-text text-transparent
+          ">
             Versenyeink
           </span>
         </h2>
 
-        <div
-          className="
-            rounded-3xl ring-1 ring-black/10 dark:ring-white/15
-            p-4 sm:p-6 lg:p-8
-            bg-gradient-to-r
-            from-[var(--color-bme-blue)] via-[var(--color-bme-purple)] to-[var(--color-bme-blue)]
-            dark:from-[var(--color-bme-purple)] dark:via-[var(--color-bme-orange)] dark:to-[var(--color-bme-purple)]
-            text-white
-          "
-        >
+        <div className="
+          rounded-3xl ring-1 ring-black/10 dark:ring-white/15
+          p-4 sm:p-6 lg:p-8
+          bg-gradient-to-r
+          from-[var(--color-bme-blue)] via-[var(--color-bme-purple)] to-[var(--color-bme-blue)]
+          dark:from-[var(--color-bme-purple)] dark:via-[var(--color-bme-orange)] dark:to-[var(--color-bme-purple)]
+          text-white
+        ">
           <div className="mx-auto grid gap-4">
-            <CompetitionItem
-              kind="AI"
-              name="Monaco Energy Boat  Challange"
-              desc="Az év első versenye, ahol több mint, 50 csapat vesz részt 25 országból, összesen több mint 1000 hallgatóval, ami az eseményt az egyik legnagyobb nemzetközi napelemes hajóversennyé teszi."
-            />
-            <CompetitionItem
-              kind="SOLAR"
-              name="Balaton Solar Boat Challenge"
-              desc="Hazánk egyetlen versenye, amelyet Balatonalmádiban rendeznek meg. A háromnapos eseményt az erős mezőny és a számunkra különösen kellemes helyszín hangulata jellemzi."
-            />
-            <CompetitionItem
-              kind="SOLAR"
-              name="Wildauer Solar Boot Regatta"
-              desc="Ez a verseny a berlini régióban, Wildau városában kerül megrendezésre. A versenyszezon záróeseményeként kellemes, családias légkört teremt."
-            />
+            <CompetitionItem kind="AI" name="Monaco Energy Boat Challenge" desc="Az év első versenye, ahol több mint, 50 csapat vesz részt 25 országból, összesen több mint 1000 hallgatóval, ami az eseményt az egyik legnagyobb nemzetközi napelemes hajóversennyé teszi." />
+            <CompetitionItem kind="SOLAR" name="Balaton Solar Boat Challenge" desc="Hazánk egyetlen versenye, amelyet Balatonalmádiban rendeznek meg. A háromnapos eseményt az erős mezőny és a számunkra különösen kellemes helyszín hangulata jellemzi." />
+            <CompetitionItem kind="SOLAR" name="Wildauer Solar Boot Regatta" desc="Ez a verseny a berlini régióban, Wildau városában kerül megrendezésre. A versenyszezon záróeseményeként kellemes, családias légkört teremt." />
           </div>
         </div>
       </section>
+
 
       {/* --- 4) Eredményeink  --- */}
       <section id="achievements" className="mx-auto w-full max-w-6xl">
